@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+ 
+h1 {
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+ 
+.container {
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: royalblue;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid;
+}
+ 
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+ 
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+ 
+.cell:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}
+ 
+.reset {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+ 
+.reset:hover {
+    background-color: dimgray;
+}
+ 
+.message {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #000071;
+    font-weight: bold;
+}body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6495ED;
+    margin: 0;
+    padding: 0;
+}
+ 
+h1 {
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+ 
+.container {
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #4169E1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    max-width: 500px;
+}
+ 
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+ 
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+ 
+.cell:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+ 
+.reset {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: #778899;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+ 
+.reset:hover {
+    background-color: #666;
+}
+ 
+.message {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #000071;
+    font-weight: bold;
+}
